@@ -8,7 +8,7 @@ Anonymous inner class basically is one of the way by which you can implemet inte
 **Example:**
 
 
-Let's create one interface Header which can be used to give heading to any web page
+Let's create one Functional interface Header which can be used to give heading to any web page
 
 public interface Header {
 
