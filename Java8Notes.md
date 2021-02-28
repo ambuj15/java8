@@ -1,9 +1,10 @@
 **Java -8 Pre-Defined functional interfaces**
 
->>Pre-Defined functional interfaces are introduced in order to make programming easy and these are some common interfaces with some methods which can be used in daily programs and hence we don't need to create multiple functional interfaces separately. 
+Pre-Defined functional interfaces are introduced in order to make programming easy and these are some common interfaces with some methods which can be used in daily programs and hence we don't need to create multiple functional interfaces separately. 
   We can use any pre-defined FI depending on the usage and type of method we need.
 
->>You can find all these pre-defined functional interfaces in *java.util.function* package
+You can find all these pre-defined functional interfaces in *java.util.function* package
+
 *1. Single argument pre-defined functional interfaces*
 a) Predicate
 b) Function
@@ -63,10 +64,13 @@ ShivShankar
 *Predicate Joining :* This is a facility provided by java by which we can combine predicates to form one single predicate in order to simplify the complex conditional checks
 
 -- p1--> predicate to check whether number is even or not
+
 -- p2--> predicate to check whether number is greater than 10 or not
 
 a) p1.and(p2).test(34) -- This will check whether 34 is even and is greater than 10 or not.
+
 b) p1.or(p2).test(34) -- This will check if 34 is even or greater than 10 or not.
+
 c) p1.negate() -- This will be used find opposite of p1.
 
 Eg:
