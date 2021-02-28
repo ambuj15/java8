@@ -27,10 +27,10 @@ public class Person_Unit1Excercise2 {
 		// starting with S
 		System.out.println("Prints all persons with first name beginning with S");
 		performConditionally(people, p -> p.getFirstName().startsWith("S"), p -> System.out.println(p.getFirstName()));
-		
-		//Step 4 : Print only the details whose age is less than 30
+
+		// Step 4 : Print only the details whose age is less than 30
 		System.out.println("------------------------------------------------------------");
-		performConditionally(people, p->p.getAge()<30, p-> System.out.println(p));
+		performConditionally(people, p -> p.getAge() < 30, p -> System.out.println(p));
 
 	}
 
