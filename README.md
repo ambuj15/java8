@@ -19,7 +19,7 @@ Now let's implement it using
 
 **A) Anonymous Inner Class concept.**
 
-public class HeaderImplementationWithAnonyomusClass {
+```public class HeaderImplementationWithAnonyomusClass {
 
 	// Here we are implementing header directly and not creating any separate
 	// concrete class for it's implementation
@@ -47,7 +47,6 @@ public class HeaderImplementationWithAnonyomusClass {
 		h1.pageHeading("faceBook");
 	}
 }
-
 **O/P :**
 
 Hello Google 
@@ -57,12 +56,13 @@ Hello FaceBook
 Hello everyone at  google
 
 Hello everyone at  faceBook
+```
 
 In the output you can see that for changing the implementation we again have to write particular block of code for a very minute change. This can be mitigated using Lambda Expression which is as follow:
 
 **B) Lambda Expression concept.**
 
-public class HeaderImplementationWithLambda {
+```public class HeaderImplementationWithLambda {
 
 	public static void main(String[] args) {
 		Header h = (value1) -> System.out.println("Hi " + value1);
@@ -93,6 +93,7 @@ Hi all at Facebook
 Hi everyone at Google 
 
 Hi everyone at Facebook 
+```
 
 ** You can see that the implementation changed just in single line without writing repetetive portion of code which was prominent in Anonymous Inner Class.**
 
