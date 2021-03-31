@@ -1,3 +1,25 @@
+# SUMMARY:-
+
+	With the introduction of Java 8, **functional Programming**(Style of programming that treats **computation as functions/expressions** and avoid changing state) has been introduced in the Java Langauge.
+	Java 8 has introduce **Lambda Expression** to bring the benefits of functional Programming in java, Lambda is just a **nameless function, which means it does not have name, return Type and access modifier.** 
+	Java 8 has introduce **Functional Interface** to bring the use of lambda expression. Functional Interface is having *Single Abstract Method(SAM)* in it. To mark an interface Function an **annotation has been introduce i.e. @FunctionalInterface.** 
+	Java 8 has also added **method Reference** which enables us to define lambda expressions by referring to methods name directly.
+	Java 8 has also introduce **default concrete methods(extension method or defender methods) and static methods inside interface**. 
+	Java 8 has introduce **java.util.function** package which consititue **all functional interfaces** like Predicate, Function, Supplier, Consumer, BinaryOperator, UnaryOperator.
+	Java 8 has introduce **stream functionality** with java.util.stream package– which contains classes **for processing sequence of elements.** This is done by Stream pipeline chaining - 
+		Syntax:- "source (.) 0 or more Intermidiate Operation (.) Terminal operation". Intermediate operation like - filter, map, skip, peek, sorted, distinct etc while  Terminal operation like for each(Consumer), reduce, collect, toArray, findFirst, findAny, count etc.
+	Java 8 has added a final class **Optional** in java.util package, which helps us to write **neat code without worrying about too many null checks.**
+	Java 8(HotSpot 1.8) has also **removed PremGen memory space and introduce MetaSpace** just to avoid java.lang.OutOfMemoryError.
+	Java 8 has introduced Nashorn javascript engine, which is a java based engine for executing and evaluting java Script Code.
+	Java 8 has also added **java.time packages** to enhance java Date and Time Api features. Classes are -  LocalDate, LocalDateTime, Clock
+	Java 8 has also introduced **StringJoiner class in util package**. Using this class we can join more than one strings with the specified delimiter, we can also provide prefix and suffix to the final string while joining multiple strings. 
+		[StringJoiner Example](https://beginnersbook.com/2017/10/java-8-stringjoiner/)
+	Java 8 has added **forEach(Consumer) and spiltIterator() methods in the Iterable Interface**.
+	Local inner class(which are dfined inside a methods) **cannot access non-final local variable** till JDK 1.7, Since JDK 1.8, it is possible to access the non-final local variable in method local inner class.
+	Java 8 has introduced **StampedLock**, in which the acquisition method return a stamp that is used to release a lock and to check whether lock is still valid or not.
+	java 8 has introduced Concurrent Adders & Accumulators- DoubleAdder, DoubleAccumulator, LongAdder, LongAccumulator
+
+
 **Java -8 Pre-Defined functional interfaces**
 
 Pre-Defined functional interfaces are introduced in order to make programming easy and these are some common interfaces with some methods which can be used in daily programs and hence we don't need to create multiple functional interfaces separately. 
